@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Prealoader  -->
+        <div class="preloader"">
+            <div class="loader"></div>
+        </div>
+
+
+        <!-- HomePage  -->
+        <div class="home hide">
+            <button href="" class="btn btn1">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Analogue Clock
+            </button>
+            <button href="" class="btn btn2">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Digital Clock
+            </button>
+        </div>
+
+
+
+
+        <!-- Digital Clock -->
+        <div class="digital-clock hide">
+            <i id="close-btn1" class="fa fa-times"></i>
+            <div class="time">
+                <h1>
+                    <span class="hours">11</span>
+                    <span class="space1">:</span>
+                    <span class="minutes">11</span>
+                    <span class="space2">:</span>
+                    <span class="seconds">11</span>
+                    <span class="session">pm</span>
+                </h1>
+                <h2>
+                    <span class="weekday">tuesday</span>
+                    <span class="day">00</span>
+                    <span class="month">00</span>
+                    <span class="slash">,</span>
+                    <span class="year">2020</span>
+                </h2>
+            </div>
+        </div>
+
+        <div class="analogue_clock hide">
+            <i id="close-btn2" class="fa fa-times"></i>
+
+          <div class="clock">
+                <div class="hand hour" data-hour-hand></div>
+                <div class="hand minute" data-minute-hand></div>
+                <div class="hand second" data-second-hand></div>
+              
+                <div class="number number1">I</div>
+                <div class="number number2">II</div>
+                <div class="number number3">III</div>
+                <div class="number number4">VI</div>
+                <div class="number number5">V</div>
+                <div class="number number6">VI</div>
+                <div class="number number7">VII</div>
+                <div class="number number8">VIII</div>
+                <div class="number number9">IX</div>
+                <div class="number number10">X</div>
+                <div class="number number11">XI</div>
+                <div class="number number12">XII</div>
+          </div>
+        </div>
+
+
+
+
+    </div> <!-- container end -->
+
+    <div style="display: none;">
+        <img src="https://source.unsplash.com/400x300" alt="">
+        <img src="https://source.unsplash.com/400x300" alt="">
+        <img src="https://source.unsplash.com/400x300" alt="">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

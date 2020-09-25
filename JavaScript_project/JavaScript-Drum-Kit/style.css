@@ -1,0 +1,68 @@
+html {
+  font-size: 10px;
+  background:linear-gradient(hsla(0, 1%, 72%, 0.8),rgba(46, 8, 8, 0.7)), url(img/1.jpg) center center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+
+.title{
+  font-size: 7rem;
+  text-align: center;
+  margin-bottom: 14rem;
+  color: greenyellow;
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: 50%;
+  margin:0 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  transition: all .07s ease;
+  width: 11rem;
+  height:11rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+  margin-top: 1rem;;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 5rem;
+  margin-top: 17px;
+  font-family: Raleway;
+  font-weight: bolder;
+  color: red;
+}
+
+.sound {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  letter-spacing: .1rem;
+  color: greenyellow;
+  font-family: Raleway;
+  font-weight: bold;
+}

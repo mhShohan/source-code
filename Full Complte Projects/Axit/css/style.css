@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+section{
+    padding: 4rem 0;
+}
+.container{
+    width: 114rem;
+    margin: auto;
+}
+h1{
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 3.6rem;
+    color: #fff;
+    font-weight: 200;
+    padding: 2rem 2rem 0 0;
+}
+h1::after{
+    content: '';
+    display: block;
+    width:7rem;
+    height:.4rem;
+    background: rgba(255, 255, 255, 0.7);
+    margin-top: 2rem;
+}
+h2{
+    color: #212121;
+    font-family: Raleway;
+    font-size: 3.6rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2:after{
+    content: '';
+    display: block;
+    width: 6rem;
+    height: .3rem;
+    background: #f98837;
+    margin: 2rem auto;
+}
+
+
+
+h3{
+    font-family: Raleway;
+    font-size: 2.2rem;
+    color: #000000;
+}
+
+h4{
+    font-family: Raleway;
+    font-size: 2rem;
+    color:#000;
+    font-weight: bold;
+
+}
+h4::after{
+    content: '';
+    display: block;
+    width:6rem;
+    height:.3rem;
+    background: #f98837;
+    margin: 1.3rem 0;
+}
+
+
+
+
+
+/* ******************  */
+/*   Header section    */
+/* ******************* */
+
+#header-section{
+
+}
+
+/* Navigation section  */
+
+.navbar{
+    background: #000;
+}
+.navbar::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.logo{
+    float: left;
+    padding: 1.5rem 0;
+}
+/* Main Menu  */
+
+.main-menu{
+    float:right;
+}
+.main-menu ul{
+    list-style: none;
+}
+.main-menu ul li{
+    float: left;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: Raleway;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 2rem 2rem 1.4rem 2rem;
+    display: block;
+}
+.main-menu ul li:hover a{
+    color: #f98837;
+    border-bottom: .5rem solid #f98837;
+}
+
+/* Banner Section  */
+
+.banner-section{
+    background: url('../img/banner.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-section::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.banner-left{
+    float: left;
+    margin-top: 11rem;
+    width: 50%;
+}
+.banner-left p{
+    color: rgba(241, 231, 231, 0.6);
+    font-size: 1.6rem;
+    font-family: Raleway;
+    margin: 4rem 0 5rem 0;
+    padding-right: 6rem;
+}
+.banner-left a{
+    text-decoration: none;
+    color: #fff;
+    padding: 2rem 5rem;
+    border: .2rem solid #fff;
+    font-family: Raleway;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+.banner-left a:hover{
+    color:  #f98837;
+    border-color:  #f98837;
+}
+
+
+.banner-right{
+    float: right;
+    margin-top: 14rem;
+    width: 50%;
+    text-align: center;
+}
+
+
+/* Banner From  */
+.banner-right form{
+    width: 36rem;
+    float: right;
+    background: #fff;
+    border-radius: .5rem;
+    margin-right: 3rem;
+}
+.banner-right h3{
+    background: rgba(190, 185, 185, 0.5);
+    padding: 2rem 0;
+    border-radius: .5rem .5rem 0 0;
+}
+.banner-right h3 span{
+    color: #f98837;
+}
+.banner-right input{
+    display: block;
+    margin: auto;
+    width: 28rem;
+    height: 4rem;
+    margin-top: 4rem;
+    font-family: Raleway;
+    font-size: 2rem;
+    padding-left: 1rem;
+    border: .1rem solid rgba(26, 25, 25, 0.2);
+    border-radius: .3rem;
+
+}
+.banner-right button{
+    display: block;
+    width:100%;
+    height: 6rem;
+    border: none;
+    margin-top: 4rem;
+    background:  #f98837;
+    font-size: 2rem;
+    font-family: Raleway;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 0 0 .5rem .5rem;
+}
+.banner-right button:hover{
+    color:#fff;
+    background: #802f07;
+}
+
+/* ******************  */
+/*   Social Media section    */
+/* ******************* */
+
+
+#social-media-section{
+
+}
+#social-media-section p{
+    font-family: Raleway;
+    font-size: 1.4rem;
+    color: rgb(71, 67, 67);
+    padding-right: 6rem;
+    margin-top: 1rem;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-row: 1rem;
+}
+.social-menu{
+    margin-top: 3rem;
+    text-align: right;
+}
+.social-menu ul{
+    list-style: none;
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    text-decoration: none;
+    font-size: 4rem;
+    color: rgba(51, 47, 47, 0.541);
+    padding: 0 2rem;
+}
+.social-menu ul li:hover a{
+    color: #f98837;
+}
+
+
+/* ******************  */
+/*   Tab section    */
+/* ******************* */
+
+#tab-section{
+    background: #c9c6c6;
+}
+/* Tab  */
+
+.tab-row{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.tab-col .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: .5em 1em;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Raleway;
+}
+.tab-col .ui-state-active, 
+.tab-col .ui-widget-content .ui-state-active, 
+.tab-col .ui-widget-header .ui-state-active,
+.tab-col a.ui-button:active, 
+.tab-col .ui-button:active, 
+.tab-col .ui-button.ui-state-active:hover {
+    border: 0px solid #f98837;
+    border-bottom-width: 1px;
+    background: #f98837;
+    font-weight: normal;
+    color: #fff;
+}
+
+#tabs-1 p,
+#tabs-2 p,
+#tabs-3 p{
+    font-size:1.4rem;
+    padding: 1rem 4rem 2rem 0;
+    color: rgba(177, 168, 168);
+}
+#tabs-1 button,
+#tabs-2 button,
+#tabs-3 button{
+    background: #f98837;
+    font-size: 2.4rem;
+    border: none;
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+}
+
+.tab-col-right img{   
+     padding: 5rem 3rem 3rem 10rem;
+}
+
+
+/* ******************  */
+/*  Sub list section   */
+/* ******************* */
+
+#sub-list-section{
+
+}
+
+.sub-list-row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5rem;
+}
+.sub-right{
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.sub-right > p{
+    font-size: 1.6rem;
+    color: #86878b;
+}
+
+.icon-row{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 2rem 0;
+}
+
+.icon-row .fas{
+    font-size: 3rem;
+    color:#f98837;
+    padding: 1.3rem 1rem;
+    border: .1rem solid #f98837;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+.icon-row h6{
+    font-size: 1.8rem;
+    font-family: Raleway;
+}
+.icon-row p{
+    font-size: 1.4rem;
+    color: #86878b;
+    margin-top: .5rem;
+    margin-right: 3rem;
+}
+
+
+/* ******************  */
+/*  Standard Pic section   */
+/* ******************* */
+
+#stnd-pic-section{
+    background: rgb(245, 239, 239);
+}
+
+#stnd-pic-section .sub-left{
+    order: 2;
+}
+#stnd-pic-section .sub-right{
+    order: 1;
+    margin-left: 0;
+    margin-right: 8rem;
+}
+
+/* ******************  */
+/*  Awesome section   */
+/* ******************* */
+
+#awesome-section{
+    margin: 4rem;
+    text-align: center
+}
+.section-text{
+    font-family: Raleway;
+    font-size: 1.6rem;
+    color: #86878b;
+    margin: 3rem 0;
+
+}
+.awesome-row{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 5rem;
+    margin-top: 6rem;
+}
+.awesome-row i{
+    border: .2rem solid #f98837;
+    font-size: 3.4rem;
+    border-radius: 50%;
+    color: #f98837 !important;
+    padding: 1.6rem;
+}
+.awesome-row h6{
+    font-size: 2rem;
+    font-family: Raleway;
+    margin: 3rem 0;
+}
+.awesome-row p{
+    font-size: 1.4rem;
+    color: #86878b;
+    padding: 0 1rem;
+}
+
+
+
+/* ******************  */
+/*  Price section   */
+/* ******************* */
+
+#price-section{
+    background: #F5EFEF;
+    padding: 10rem 0;
+    text-align: center;
+
+}
+.pricing-row{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 4rem;
+    margin-top:10rem;
+}
+
+.pricing-col{
+    background: #fff;
+    padding-bottom: 4rem;
+}
+.pricing-col h6{
+    background: #333333;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    border-bottom: .2rem solid #ffffff;
+}
+
+.pricing-col .price{
+    background: #333333;
+    color: #fff;
+    font-family: Raleway;
+    padding: .5rem 0 4rem 0;
+    border-bottom: .3rem solid #f98837;
+
+}
+.pricing-col .price p{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.pricing-col .price p span{
+    font-size: 9rem;
+    font-family: Raleway;
+    font-weight: bold;
+}
+.price i{
+    font-size: 1.2rem;
+    color: #f0e8e898;
+}
+.pricing-col p{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #86878b;
+    margin: 2rem 0;
+}
+.mid-col-text{
+    background: #f98837 !important;
+    font-size: 1.6rem !important;
+
+}
+.pricing-col:nth-child(2){
+    margin-top: -4rem;
+}
+
+/* ******************  */
+/*  Price section   */
+/* ******************* */
+
+#team-section{
+    text-align: center;
+    margin: 5rem;
+}
+.team-row{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 14rem;
+    text-align: left;
+    margin-top: 4rem;
+}
+
+.team-col > p{
+    background: #f5f5f5;
+    padding: 2rem;
+    font-size: 1.4rem;
+    color: #86878b;
+    font-family: Raleway;
+    margin-bottom: 2rem;
+}
+
+.fa-caret-down{
+    color: #000;
+    font-size: 5rem;
+}
+
+.team-member{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.team-title h6{
+    font-family: Raleway;
+    font-size: 2rem;
+    color: #333333;
+    margin-top: 1.6rem;
+
+}
+.team-title p{
+    font-size: 1.4rem;
+    color: #86878b;
+}
+
+#style-section{
+    text-align: center;
+    background: url(../img/last.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 8rem 0;
+}
+#style-section h2{
+    color: #ffffff;
+}
+#style-section p{
+    color: #ffffff;
+    margin-bottom: 7rem;
+}
+#style-section h2::after{
+    background: #ffffff;
+}
+
+.download-btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 2rem 3rem;
+    border: .2rem solid #fff;
+    font-family: Raleway;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.download-btn:hover{
+    color: #f98837;
+    border-color: #f98837;
+}
+
+/* ******************  */
+/*  Contact section   */
+/* ******************* */
+
+#contact-section{
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.contact-row{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-gap: 6rem;
+    margin-top: 8rem;
+
+}
+.contact-left input{
+    font-family: Raleway;
+    font-size:2.4rem;
+    display: block;
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 3rem;
+    padding:0 0 0 2rem;
+    border: none;
+    border-bottom: .1rem solid #33333348;
+    
+}
+
+.contact-right textarea{
+    font-family: Raleway;
+    font-size:2.4rem;
+    display: block;
+    width: 100%;
+    height: 18rem;
+    margin-bottom: 3rem;
+    padding:0 0 0 2rem;
+    border: none;
+    border-bottom: .1rem solid #33333348;
+}
+
+.send-btn{
+    background: #f98837;
+    border: none;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 2.5rem;
+    padding: 2rem 4rem;
+    margin-top: 4rem;
+}
+
+.send-btn:hover{
+    color: #f98837;
+    background: #000;
+}
+
+/* ******************  */
+/*  Footer section   */
+/* ******************* */
+
+#footer-section{
+    background: #000;
+    padding: 3rem 0;
+    text-align: center;
+}
+#footer-section .social-menu{
+    text-align: center;
+}
+#footer-section ul li a{
+    color: #fff ;
+}
+#footer-section ul li:hover a{
+    color: #f98837;
+}
+#footer-section em{
+    color: #86878b;
+    margin-top: 4rem;
+}
+
+
+/* mnobile menu   */
+
+.main-menu .fa-bars{
+    color: #fff;
+    font-size: 3.3rem;
+    position: absolute;
+    top:1%;
+    right: 4%;
+    display: none;
+
+}
+.main-menu .fa-bars:hover {
+    color: #f98837;
+}

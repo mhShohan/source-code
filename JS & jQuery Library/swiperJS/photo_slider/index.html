@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/swiper-bundle.min.css">
+</head>
+<body>
+
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/screenshot-1.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/screenshot-2.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/screenshot-3.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/screenshot-4.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/screenshot-5.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/screenshot-6.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/screenshot-7.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/screenshot-8.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/screenshot-9.png" alt=""></div>
+      <div class="swiper-slide"><img src="img/screenshot-10.png" alt=""></div>
+    </div>
+  </div>
+
+  <script src="lib\swiper-bundle.min.js" charset="utf-8"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      centeredSlides: true,
+      loop:true,
+      centeredSlides: true,
+      grabCursor: true,
+      autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 20,
+        }
+      }
+    });
+  </script>
+</body>
+</html>

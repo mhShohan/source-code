@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form Animation</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+
+        <div class="field-name">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" required> 
+            <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="field-email inactive">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" required>
+            <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="field-password inactive">
+            <i class="fas fa-key"></i>
+            <input type="password" placeholder="Password">
+            <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="field-finish inactive">
+            <i class="fas fa-heart"></i>
+            <p>Thank You</p>
+            <i class="fas fa-heart"></i>
+        </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

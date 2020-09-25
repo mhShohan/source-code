@@ -1,0 +1,30 @@
+body{
+    background: #bdc3c7;
+}
+.menu-bar{
+    margin: 300px 300px;
+    cursor: pointer;
+}
+
+.bar1 , .bar2 , .bar3 {
+    background: #000;
+    width:120px;
+    height: 15px;
+    margin: 20px 0;
+    transition: 0.5s;
+
+}
+
+.change .bar1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2{
+      opacity: 0;
+  }
+
+  .change .bar3{
+    -webkit-transform: rotate(-45deg) translate(-43px, 40px);
+    transform: rotate(45deg) translate(-43px, -40px);
+  }

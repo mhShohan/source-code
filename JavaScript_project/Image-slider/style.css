@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.img_slider{
+	position:relative;
+}
+.img_slider i{
+	color:#fff;
+	font-size:70px;
+}
+.img_slider i:hover{
+	color:red;
+}
+.fa-chevron-left{
+	position:absolute;
+	top:300px;
+	left:5%;
+	z-index:222;
+	
+}
+.fa-chevron-right{
+	position:absolute;
+	top:300px;
+	right:5%;
+	z-index:222;
+	
+}
+.slider_item{
+	position:absolute;
+	width:100%;
+	opacity:0;
+	transition:all 3s;
+}
+.slider_item img{
+	width:100%;
+	height:100vh;
+}
+.active{
+	opacity:1;
+}

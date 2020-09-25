@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangamancho</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <span class="txt active">র</span>
+            <span class="txt">ঙ্গ</span>
+            <span class="txt">ম</span>
+            <span class="txt">ঞ্চ</span>
+        </h1>
+    </div>
+
+    <script>
+        let txt = document.querySelectorAll(".txt");
+
+        setInterval(function(){
+            if(txt[0].classList.contains("active")){
+
+                txt[1].classList.add("active");
+                txt[2].classList.remove("active");
+                txt[3].classList.remove("active");
+                txt[0].classList.remove("active");
+
+            }else if(txt[1].classList.contains("active")){
+
+                txt[2].classList.add("active");
+                txt[3].classList.remove("active");
+                txt[0].classList.remove("active");
+                txt[1].classList.remove("active");
+
+            }else if(txt[2].classList.contains("active")){
+
+                txt[3].classList.add("active");
+                txt[0].classList.remove("active");
+                txt[1].classList.remove("active");
+                txt[2].classList.remove("active");
+
+            }else if(txt[3].classList.contains("active")){
+
+                txt[0].classList.add("active");
+                txt[1].classList.remove("active");
+                txt[2].classList.remove("active");
+                txt[3].classList.remove("active");
+
+            }
+        },1000);
+    </script>
+    
+</body>
+</html>

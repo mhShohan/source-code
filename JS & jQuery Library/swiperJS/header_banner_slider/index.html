@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/swiper-bundle.min.css">
+</head>
+<body>
+
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background: url(3333.jpg) no-repeat center center; background-size:cover;">
+        <div class="swiper_slider_content">
+          <h1>heading</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed atque a voluptate eum ipsum culpa maiores similique voluptatem iste dolore!</p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="background: #9c88ff">Slide 2</div>
+      <div class="swiper-slide" style="background: #fbc531">Slide 3</div>
+      <div class="swiper-slide" style="background: #4cd137">Slide 4</div>
+      <div class="swiper-slide" style="background: #487eb0">Slide 5</div>
+      <div class="swiper-slide" style="background: #e84118">Slide 6</div>
+      <div class="swiper-slide" style="background: #7f8fa6">Slide 7</div>
+      <div class="swiper-slide" style="background: #273c75">Slide 8</div>
+      <div class="swiper-slide" style="background: #353b48">Slide 9</div>
+      <div class="swiper-slide" style="background: #dcdde1">Slide 10</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <script src="lib\swiper-bundle.min.js" charset="utf-8"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      centeredSlides: true,
+      loop:true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

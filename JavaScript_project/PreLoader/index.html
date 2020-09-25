@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreLoader</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/loader.gif" type="image/x-icon">
+</head>
+<body>
+    <div class="loader">
+        <img src="img/loader.gif" alt="">
+    </div>
+
+    <div class="container">
+        <img src="img/img.gif" alt="">
+    </div>
+
+    <div>
+        <img src="https://source.unsplash.com/400x300" alt="">
+        <img src="https://source.unsplash.com/400x300" alt="">
+        <img src="https://source.unsplash.com/400x300" alt="">
+    </div>
+
+
+
+    <script>
+        var loader = document.querySelector(".loader");
+
+         window.addEventListener("load",disapper)
+         function disapper(){
+             loader.classList.add("disapper");
+         }
+    </script>
+</body>
+</html>

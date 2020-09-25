@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background: rgb(47, 170, 98);
+    transition: background 0.5s ease;
+    position: relative;
+}
+.field-name,
+.field-email,
+.field-password,
+.field-finish{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.5);
+    height: 60px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+}
+.field-name i,
+.field-email i,
+.field-password i,
+.field-finish i{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.field-name input,
+.field-email input,
+.field-password input{
+    border: none;
+    background: none;
+    flex: 1;
+    height: 100%;
+    outline: none;
+    font-size: 22px;
+    font-family: Raleway;
+    padding-left: 10px;
+}
+.field-finish p{
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 900;
+}
+div.inactive{
+    opacity: 0;
+    pointer-events: none;
+    transition: translate(-50%, 50%);
+}
+div.active{
+    opacity: 1;
+    pointer-events: all;
+    transition: translate(-50%, -50%);
+}
+@keyframes shake{
+    0%{transform: translate(-50%, -50%) rotate(0deg);}
+    25%{transform: translate(-50%, -50%) rotate(10deg);}
+    50%{transform: translate(-50%, -50%) rotate(0deg);}
+    75%{transform: translate(-50%, -50%) rotate(-10deg);}
+    100%{transform: translate(-50%, -50%) rotate(0deg);}
+}

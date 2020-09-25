@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Raleway;
+}
+body{
+    background: rgb(151, 149, 149);
+}
+header{
+    background: rgb(25, 125, 192);
+    text-align: center;
+    padding: 30px;
+}
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+#search{
+    border: none;
+    padding: 10px 40px 10px 10px;
+    border-radius: 6px;
+    background: rgba(252, 251, 251, 0.5);
+    outline: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.container{
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+#add-new-item{
+    border: none;
+    outline: none;
+    background: rgb(106, 177, 243);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.add-btn{
+    border: none;
+    background: rgb(12, 72, 121);
+    padding: 10px 30px;
+    color: bisque;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+.list-item{
+    background: rgb(68, 68, 150);
+    margin: 5px 20px;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    text-transform: capitalize;
+    position: relative;
+}
+.delete-btn{
+    border: none;
+    outline: none;
+    padding: 5px;
+    background: rgb(190, 26, 26);
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}

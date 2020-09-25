@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway;
+}
+.container{
+    width:1140px;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.hero-text-box{
+    width:70%;
+    color:greenyellow;
+    margin: auto;
+    text-align: right;
+    position: absolute;
+    top: 40%;
+    left:15%;
+}
+.headtext{
+    font-size: 20px;
+}
+.header-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(61, 27, 27, 0.7)), url('22222.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+/* ************* */
+/* navBar */
+.navbar{
+    background: #000;
+    overflow: hidden;
+    color: greenyellow;
+}
+.logo{
+    float: left;
+}
+h2{
+    font-size: 40px;
+    margin: 10px;
+}
+
+/* navigation  */
+
+.main-menu{
+    float: right;
+    margin-top: 3px;;
+}
+.main-menu:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.main-menu ul {
+    list-style: none;
+}
+.main-menu ul li{
+    float: left;
+    margin: 0;
+}
+.main-menu ul li a{
+    color: greenyellow;
+    font-size: 24px;
+    padding: 20px 30px ;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.main-menu ul li:hover a{
+    background: greenyellow;
+    color:#000;
+}
+
+
+/* fixed at scroll  */
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}

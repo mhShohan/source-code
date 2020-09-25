@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid Mubarak</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg,rgb(67, 102, 27) 0%,rgb(29, 126, 155) 50%,#141583 100%);
+        }
+        .eid{
+            font-family: Raleway;
+            font-size: 150px;
+            text-transform: capitalize;
+            font-weight: bolder;
+            color: #fff;
+            text-shadow: 0 0 20px #000;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="eid">
+        <p></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
+
+    <script>
+        var typed =new Typed('.eid', {
+
+            strings: ['eid mubarak','eid mubarak','brother...'],
+            smartBackspace:true,
+            stringsElement:null,
+            typeSpeed: 200,
+            shuffle:false,
+            loop: true,
+            backDelay: 2000,
+            backSpeed: 50
+        });
+
+    </script>
+</body>
+</html>

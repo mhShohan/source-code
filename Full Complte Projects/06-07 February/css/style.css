@@ -1,0 +1,84 @@
+body {
+  padding-top: 90px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #ffffff;
+  opacity: 0.8;
+  font-variant: small-caps;
+  font-weight: bold; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link {
+      color: #252525; }
+    .navbar .nav-item .nav-link:hover {
+      color: #3292a6; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+#home {
+  background: url("../img/mountains.jpg");
+  min-height: 600px;
+  position: relative;
+  color: #ffffff; }
+  #home .primary-overlay {
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #home p {
+    font-size: 25px; }
+  #home .btn-lg {
+    border-radius: 0;
+    width: 200px; }
+
+#subscribe {
+  background: #252525; }
+  #subscribe .form-control {
+    border-radius: 0px; }
+  #subscribe .btn-lg {
+    border-radius: 0px; }
+  #subscribe .fa-envelope-open-o {
+    padding: 0 8px 0 0; }
+
+#subs_btm .card {
+  border-radius: 0px; }
+
+#about-section {
+  background: #bdc3c7; }
+  #about-section .btn-lg {
+    border-radius: 0px;
+    border: 1px solid #16a085; }
+  #about-section .fa-angle-double-down {
+    padding-right: 10px; }
+  #about-section .card {
+    border-radius: 0px; }
+
+#aurthors img {
+  margin-top: -60px; }
+
+#aurthors .fa {
+  font-size: 25px;
+  padding-bottom: 30px; }
+
+#aurthors .card:hover {
+  background: #3292a6;
+  color: #ffffff; }
+  #aurthors .card:hover .fa {
+    color: #fff; }
+
+#contact .form-control {
+  border-radius: 0px; }
+
+#contact .btn {
+  border-radius: 0px; }
+
+#contact .fa-user {
+  padding-left: 7px; }
+
+#contact .fa-pencil {
+  padding-left: 3px; }

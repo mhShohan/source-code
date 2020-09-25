@@ -1,0 +1,22 @@
+img{
+    width: 100%;
+    opacity: .5;
+}
+img:hover{
+    opacity: 1;
+}
+
+.owl-dots{
+    text-align: center;
+}
+.owl-dot{
+    width: 20px;
+    height: 20px;
+    background: #000;
+    margin: 20px 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.owl-dot.active{
+    background-color: green;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+p{
+    font-size: 22px;
+    line-height: 30px;;
+}
+.scrollicon .fas{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.scrollicon {
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    display: none;
+}
